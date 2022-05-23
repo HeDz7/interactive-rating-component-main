@@ -14,7 +14,7 @@ submit.addEventListener('click', onSubmit);
 
 rBtn.forEach((botao) => {
     botao.addEventListener('click', () => {
-      rBtn.forEach((element) => element.classList.remove("selected"));
+    rBtn.forEach((element) => element.classList.remove("selected"));
     const selectBtn = botao.attributes.number.value 
     
     textRating.textContent = `You selected ${selectBtn} out of 5`
